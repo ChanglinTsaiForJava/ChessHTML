@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #d69f6a; /* 溫暖木頭色 */
+}
+
+/* 容器設定為Flexbox，居中iframe */
+.container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 設定容器高度為視窗高度 */
+}
+
+/* iframe設定 */
+iframe {
+  border: none; /* 移除邊框 */
+  border-radius: 8px; /* 可選，讓iframe邊角圓滑 */
+}
